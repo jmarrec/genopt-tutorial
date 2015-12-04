@@ -24,7 +24,8 @@ By default any install of E+ comes with a version updater that handles the last 
 
 You'll need more than that to go from v7.0.0 to v8.4.0. Download the [MultipleIDFVersionTranslater](http://energyplus.helpserve.com/knowledgebase/article/View/86/46/windows---programs-for-converting-older-version-idf-files-to-current-or-intermediate-versions) from the helpdesk. Either take only the files you need or just extract it in full and run the IDFVersionUpdater.exe. If oyu only want some of these files, you can copy them and paste them in your E+ IDFVersionUpdater folder (default path is above) so that you end up with these files:
 
-![List of files needed for IDFVersionUpdater](/upfiles/14492203208889818.png)
+![List of files needed for IDFVersionUpdater](Images/IDFVersionUpdater.png?raw=true "Files needed for IDF Version Updater")
+
 
 **Do the conversion.**
 
@@ -95,4 +96,4 @@ Just do the same, and change the path in your optWin7.ini to point to `C:\Progra
 
 ### 6. Check that you have everything you need, and run
 
-![image description](/upfiles/14492220035433628.png)
+![All the files you need](Images/SetupAndRun.png?raw=true "Setup And Run")
