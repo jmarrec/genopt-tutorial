@@ -69,14 +69,13 @@ My EnergyPlus folder is not at `C:\Program Files (x86)\EnergyPlusV8-4-0` but at 
 
 **After:**
 
-```json
+
     SimulationStart
     {
         // The command line below calls RunEPlus.bat.
         Command = "cmd /C \"\"C:\\EnergyPlusV8-4-0\\RunEPlus.bat\" \"%Simulation.Files.Input.File1%\" \"%Simulation.CallParameter.Suffix%\"\"";
         WriteInputFileExtension = false;
     }
-```
 
 In `opWin7.ini` I need to change the path to the configuration file to point this `*.cfg`'s location.
 
