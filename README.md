@@ -2,6 +2,11 @@
 
 I created this tutorial after seeing several questions on Unmet Hours where users were having trouble setting up GenOpt to run with newer that 7.0.0 versions of EnergyPlus. ([1](https://unmethours.com/question/4584/how-to-run-genopt/) and [2](https://unmethours.com/question/13100/error-trying-to-run-genopt/))
 
+
+## Foreword
+
+The very recent release of GenOpt 3.1.1 now has examples up to E+ version 8.5, thus rendering this tutorial kind of moot. But I'll keep it online because I do genuinely believe that there is still value in understanding what are the different files used by GenOpt.
+
 ### 1. Install GenOpt.
 
 Download GenOpt, currently version 3.1.0 from the [GenOpt website](http://simulationresearch.lbl.gov/GO/download.html).
@@ -46,7 +51,7 @@ This has the path to the two `*.idf` files, the path to the configuration file `
         Suffix = USA_IL_Chicago-OHare.Intl.AP.725300_TMY3;
       }
 
-First, go find the Chicago O hare weather file and paste it in your test folder (or put another one and change the CallParameter.
+First, go find the Chicago O'hare weather file and paste it in your test folder (or put another one and change the CallParameter.
 
 ### 5. Create a `cfg` file
 
